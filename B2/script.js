@@ -26,3 +26,9 @@ myMovie.year = 1962;
 
 // Displays a copy after updating the properties.
 console.log("Movie after updating properties:", { ...myMovie });
+
+    // B2.5: Removes the summary property from the movie.
+delete myMovie.summary;
+
+// Displays a copy after removing the property.
+console.log("Movie after removing summary:", { ...myMovie });
